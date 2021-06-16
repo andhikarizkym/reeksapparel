@@ -1,0 +1,109 @@
+.content {
+    padding-top: 120px;
+}
+
+/* Back Button */
+/* .content .back-button {
+} */
+
+.content .back-button button {
+    padding-bottom: 10px;
+    background-color: lightgray;
+    border-radius: 12px;
+    border-style: none;
+    padding: 7px 20px;
+}
+.content .back-button button a{
+    color: black;
+}
+
+.content .back-button :hover {
+    background-color: gray;
+}
+
+.content .image-content .carousel-inner {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    border-radius: 40px;
+    box-shadow: 2px 3px 2px lightgray;
+}
+
+.content .image-content .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none;
+}
+
+.content .image-content .carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 40px;
+    color: black;
+}
+
+.content .image-content .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 40px;
+    color: black;
+}
+
+
+
+.content .text-content {
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+/* Size Choose */
+.content .text-content .size-choose {
+    margin-bottom: 20px;
+}
+
+.content .text-content  .size-choose button {
+    border: 2px solid #E1E8EE;
+    border-radius: 6px;
+    padding: 13px 20px;
+    font-size: 14px;
+    color: #5E6977;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.content .text-content .size-choose button:hover,
+.cable-choose button:active,
+.cable-choose button:focus {
+    border: 2px solid #86939E;
+    outline: none;
+}
+
+/* Product Price */
+.product-price {
+    display: flex;
+    align-items: center;
+}
+
+.product-price span {
+    font-size: 26px;
+    font-weight: 300;
+    color: #43474D;
+    margin-right: 20px;
+}
+
+.cart-btn {
+    display: inline-block;
+    background-color: rgb(3, 151, 3);
+    border-radius: 6px;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 12px 20px;
+    transition: all .5s;
+}  
+
+.cart-btn:hover {
+    background-color: rgb(8, 221, 8);
+    color: white;
+}
+
+
+
