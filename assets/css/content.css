@@ -6,19 +6,37 @@
 /* .content .back-button {
 } */
 
-.content .back-button button {
+/* .content .back-button button {
     padding-bottom: 10px;
     background-color: lightgray;
     border-radius: 12px;
     border-style: none;
     padding: 7px 20px;
+    transition: 0.5s;
 }
 .content .back-button button a{
     color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 .content .back-button :hover {
     background-color: gray;
+} */
+.back-btn {
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #121212;
+    text-decoration: none;
+    padding: 12px 20px;
+    transition: all .5s;
+    font-family: 'Poppins', sans-serif;
+}  
+
+.back-btn:hover {
+    background-color: #121212;
+    color: white;
 }
 
 .content .image-content .carousel-inner {
@@ -51,6 +69,7 @@
 .content .text-content {
     padding-top: 5%;
     margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Size Choose */
